@@ -1,4 +1,36 @@
+/* Base styles for environmental conditions */
 .envirmental_conditions {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#headingenvirment {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Flex layout for larger screens */
+.envirmental_conditions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between elements */
+    justify-content: space-between;
+}
+
+.condition {
+    flex: 1 1 48%; /* Each condition takes 48% of the container */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* .envirmental_conditions {
     display: block; /* Align elements horizontally */
     align-items: center; /* Vertically center elements */
     gap: 10px; /* Add spacing between elements */
@@ -15,7 +47,7 @@
     
     
 }
-
+ */
 .envirmental_conditions input {
     width: 30%; /* Adjust the width as needed */
     padding: 5px;
