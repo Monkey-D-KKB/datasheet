@@ -2,9 +2,6 @@
 .envirmental_conditions {
     margin: 20px 0;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
 }
 
 #headingenvirment {
@@ -30,31 +27,14 @@
     margin-bottom: 10px;
 }
 
-/* .envirmental_conditions { */
-/*     display: block; /* Align elements horizontally */ */
-/*     align-items: center; /* Vertically center elements */ */
-/*     gap: 10px; /* Add spacing between elements */ */
-/*     margin-bottom: 15px; /* Add spacing below the section */ */
-/* } */
 
-/* .envirmental_conditions label { */
-/*     display: inline; */
-/*     width: 40%; */
-/*     padding:5px; */
-/* } */
-/* #headingenvirment{ */
-/*     display: block */
-    
-    
-/* } */
-/*  */ 
-/* .envirmental_conditions input { */
-/*     width: 30%; /* Adjust the width as needed */ */
-/*     padding: 5px; */
-/*     border: 1px solid #ccc; */
-/*     border-radius: 5px; */
-/*     box-sizing: border-box; /* Ensure padding doesn't affect width */ */
-/* } */
+/*     gap: 10px; /* Add spacing between elements */ */
+
+.envirmental_conditions label { 
+    display: block; 
+} 
+ 
+
 
 
 #heading {
