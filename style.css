@@ -8,7 +8,7 @@
 }
 
 #headingenvirment {
-    display: block;
+    display: flex;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -17,6 +17,7 @@
 
 /* Flex layout for larger screens */
 .envirmental_conditions {
+    display: block;
     flex-wrap: wrap;
     gap: 10px; /* Space between elements */
     justify-content: space-between;
