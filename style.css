@@ -1,28 +1,39 @@
+/* Base styles for environmental conditions */
 .envirmental_conditions {
-    display: block; /* Align elements horizontally */
-    align-items: center; /* Vertically center elements */
-    gap: 10px; /* Add spacing between elements */
-    margin-bottom: 15px; /* Add spacing below the section */
+    margin: 20px 0;
+    padding: 10px;
 }
 
-.envirmental_conditions label {
-    display: inline;
-    width: 40%;
-    padding:5px;
-}
-#headingenvirment{
-    display: block
-    
-    
+#headingenvirment {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.envirmental_conditions input {
-    width: 30%; /* Adjust the width as needed */
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box; /* Ensure padding doesn't affect width */
+/* Flex layout for larger screens */
+.envirmental_conditions {
+    display: block;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between elements */
+    justify-content: space-between;
 }
+
+.condition {
+    flex: 1 1 48%; /* Each condition takes 48% of the container */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+/*     gap: 10px; /* Add spacing between elements */ */
+
+.envirmental_conditions label { 
+    display: block; 
+} 
+ 
 
 
 
